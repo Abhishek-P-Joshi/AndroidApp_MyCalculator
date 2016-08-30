@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
                     double theresult= Oper1 - Oper2;
 
+                    //Hello folks
                     txt_result.setText(Double.toString(theresult));
                 }else{
                     Toast.makeText(MainActivity.this,"Please Enter Numbers in both Operand fields", Toast.LENGTH_LONG).show();
